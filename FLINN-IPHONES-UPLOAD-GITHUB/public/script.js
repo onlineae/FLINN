@@ -23,8 +23,8 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 9055.46, formattedPrice: "R$ 9.055,46", installment: "12x de R$ 754,62" },
-      { capacity: "512GB", price: 9855.46, formattedPrice: "R$ 9.855,46", installment: "12x de R$ 821,28" }
+      { capacity: "256GB", price: 9255, formattedPrice: "R$ 9.255,00", installment: "12x de R$ 771,25" },
+      { capacity: "512GB", price: 9955, formattedPrice: "R$ 9.955,00", installment: "12x de R$ 829,58" }
     ],
     colors: [
       { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
@@ -45,8 +45,8 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 9055.46, formattedPrice: "R$ 9.055,46", installment: "12x de R$ 754,62" },
-      { capacity: "512GB", price: 9655.46, formattedPrice: "R$ 9.655,46", installment: "12x de R$ 804,62" }
+      { capacity: "256GB", price: 9055, formattedPrice: "R$ 9.055,00", installment: "12x de R$ 754,58" },
+      { capacity: "512GB", price: 9755, formattedPrice: "R$ 9.755,00", installment: "12x de R$ 812,91" }
     ],
     colors: [
       { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
@@ -178,9 +178,9 @@ const PRODUCTS = [
       { capacity: "49mm GPS + Cell", price: 3900, formattedPrice: "R$ 3.900,00", installment: "6x de R$ 650,00" }
     ],
     colors: [
+      { name: "Preto Oceano (Titânio)", hex: "#1e293b", image: "/assets/clean_watch_crop.png" },
       { name: "Pulseira Laranja Titânio", hex: "#ff6200", image: "/assets/watch_orange.png" },
-      { name: "Pulseira Azul Oceano", hex: "#2563eb", image: "/assets/watch_blue.png" },
-      { name: "Pulseira Meia-Noite Preta", hex: "#1e293b", image: "/assets/watch_black.png" }
+      { name: "Pulseira Azul Oceano", hex: "#2563eb", image: "/assets/watch_blue.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -195,7 +195,7 @@ const PRODUCTS = [
     warranty: "Garantia Oficial",
     maxInstallments: 12,
     storages: [
-      { capacity: "Original Lacrada", price: null, formattedPrice: "Sob Consulta", installment: "Consulte Parcelamento" }
+      { capacity: "Original Lacrada", price: 1998.90, formattedPrice: "R$ 1.998,90", installment: "12x de R$ 166,57" }
     ],
     colors: [
       { name: "Camuflado Especial", hex: "#4e5340", image: "/assets/jbl-boombox4.webp" }
