@@ -1,0 +1,150 @@
+/* ========================================================
+   FLINN iPHONES - CUSTOM LUXURY STYLES & ANIMATIONS
+   ======================================================== */
+
+/* Root Variables */
+:root {
+  --color-blue: #027cf0;
+  --color-cyan: #00d4ff;
+  --color-blue-glow: rgba(2, 124, 240, 0.45);
+  --color-dark: #06070a;
+  --color-card: #0c0f17;
+  --color-border: #1b2333;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06070a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2638;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue);
+}
+
+/* Top Marquee Animation */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 28s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Ambient Glow Orbs */
+.glow-orb {
+  position: absolute;
+  filter: blur(140px);
+  will-change: transform;
+  animation: floatOrb 12s ease-in-out infinite alternate;
+}
+
+@keyframes floatOrb {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(30px, -20px) scale(1.08);
+  }
+  100% {
+    transform: translate(-20px, 30px) scale(0.95);
+  }
+}
+
+/* Card 3D Perspective & Glow */
+.product-card {
+  transition: transform 0.35s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 0.35s cubic-bezier(0.2, 0, 0.1, 1), border-color 0.35s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.8), 0 0 25px rgba(2, 124, 240, 0.25);
+  border-color: rgba(2, 124, 240, 0.5);
+}
+
+/* Color Circle Active State */
+.color-dot {
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.color-dot.active {
+  box-shadow: 0 0 0 2px #027cf0, 0 0 8px rgba(2, 124, 240, 0.5);
+  transform: scale(1.15);
+}
+
+/* Storage Badge Active State */
+.storage-btn {
+  transition: all 0.2s ease;
+}
+
+.storage-btn.active {
+  background-color: var(--color-blue);
+  color: #ffffff;
+  border-color: var(--color-blue);
+  font-weight: 700;
+  box-shadow: 0 0 12px rgba(2, 124, 240, 0.45);
+}
+
+/* Reviews Card Glow */
+.review-card {
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+  border-color: rgba(2, 124, 240, 0.4);
+}
+
+/* FAQ Item Toggle Animation */
+.faq-content {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Subtle Shimmer for High-End Apple Boxes */
+.shimmer-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-box::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.08) 50%,
+    transparent 70%
+  );
+  transform: rotate(30deg);
+  pointer-events: none;
+  transition: transform 0.75s ease;
+}
+
+.product-card:hover .shimmer-box::after {
+  transform: rotate(30deg) translate(20%, 20%);
+}

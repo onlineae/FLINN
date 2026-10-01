@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLINN iPHONES | iPhones Novos, Lacrados & 1 Ano de Garantia Apple</title>
+  <meta name="description" content="FLINN iPhones - Loja física em Presidente Prudente - SP (Av. Washington Luiz, 2102). Catálogo exclusivo de iPhones novos e lacrados. Parcelamento em até 12x sem juros, 1 ano de garantia Apple e envios para todo o Brasil.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/logo-flinn.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#027cf0',
+              cyan: '#00d4ff',
+              hover: '#0066d6',
+              dark: '#06070a',
+              card: '#0c0f17',
+              border: '#1b2333',
+              muted: '#71717a',
+              orange: '#027cf0',
+              glow: '#00d4ff'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"Space Grotesk"', 'monospace']
+          },
+          boxShadow: {
+            'neon-blue': '0 0 25px rgba(2, 124, 240, 0.45)',
+            'neon-orange': '0 0 25px rgba(2, 124, 240, 0.45)',
+            'neon-sm': '0 0 12px rgba(2, 124, 240, 0.35)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans selection:bg-brand-blue selection:text-white antialiased overflow-x-hidden min-h-screen">
+
+  <!-- Ambient Glow -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="glow-orb top-[-10%] left-[-10%] w-[450px] h-[450px] bg-brand-blue/15 rounded-full blur-[140px]"></div>
+    <div class="glow-orb top-[40%] right-[-10%] w-[400px] h-[400px] bg-cyan-500/10 rounded-full blur-[130px]"></div>
+    <div class="glow-orb bottom-[-10%] left-[20%] w-[450px] h-[450px] bg-brand-blue/15 rounded-full blur-[150px]"></div>
+  </div>
+
+  <!-- Top Luxury Announcement Bar com Endereço Oficial -->
+  <div class="relative z-40 bg-gradient-to-r from-[#06070a] via-[#0d121c] to-[#06070a] border-b border-brand-border/60 text-slate-300 text-[11px] sm:text-xs py-2 px-4 shadow-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <div class="flex items-center gap-2 overflow-hidden text-ellipsis whitespace-nowrap">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
+        <span class="text-white font-semibold">FLINN iPhones • Pres. Prudente - SP:</span>
+        <span class="text-slate-400 hidden sm:inline">Av. Washington Luiz, 2102 - Jardim Paulista • 1 Ano Garantia Apple • Envios para todo o Brasil</span>
+        <span class="text-slate-400 sm:hidden">Av. Washington Luiz, 2102 • 100% Lacrados</span>
+      </div>
+      <div class="hidden md:flex items-center gap-4 text-xs font-mono shrink-0">
+        <span class="text-brand-blue font-bold">12x SEM JUROS</span>
+        <span class="text-slate-600">|</span>
+        <a href="https://wa.me/5516997655257" target="_blank" class="hover:text-brand-blue transition flex items-center gap-1 text-slate-300">
+          <i data-lucide="phone" class="w-3 h-3 text-brand-blue"></i>
+          <span>55 16 99765-5257</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar (PERFEITA NO CELULAR E NO COMPUTADOR) -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-brand-dark/95 border-b border-brand-border/70 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
+      
+      <!-- Brand Logo FLINN iPhones -->
+      <a href="/" class="flex items-center gap-2 sm:gap-3 group shrink-0">
+        <div class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl overflow-hidden border border-brand-blue/50 p-0.5 bg-black/80 shadow-neon-sm group-hover:border-brand-blue transition-all duration-300 shrink-0 flex items-center justify-center">
+          <img src="/assets/flinn-logo.png" alt="FLINN iPhones" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1 font-mono font-black text-sm sm:text-xl tracking-wider text-white">
+            <span>FLINN</span>
+            <span class="text-brand-blue">iPHONES</span>
+            <span class="text-[8px] sm:text-xs px-1 sm:px-1.5 py-0.5 rounded bg-brand-blue/20 text-brand-blue border border-brand-blue/30 font-sans font-semibold tracking-normal">STORE</span>
+          </div>
+          <span class="text-[8px] sm:text-[10px] text-slate-400 font-medium tracking-widest uppercase">Presidente Prudente • SP</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links (Limpo e sem a estrelinha feia no cabeçalho solicitada para remover) -->
+      <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-xs xl:text-sm font-medium text-slate-300">
+        <a href="#catalogo" class="hover:text-brand-blue transition-colors">Catálogo</a>
+        <a href="#destaques" class="hover:text-brand-blue transition-colors">Apple Watch & Som</a>
+        <a href="#simulador" class="hover:text-brand-blue transition-colors">Trocar Usado</a>
+        <a href="#lancamento-18" class="hover:text-brand-blue transition-colors">iPhone 18 Series</a>
+        <a href="#avaliacoes" class="hover:text-brand-blue transition-colors">Clientes Satisfeitos</a>
+        <a href="/rastreio" class="hover:text-brand-blue transition-colors flex items-center gap-1 text-white font-semibold">
+          <i data-lucide="truck" class="w-3.5 h-3.5 text-brand-blue"></i>
+          <span>Rastrear Pedido</span>
+        </a>
+      </nav>
+
+      <!-- Action Buttons (🔒 CADEADO DO PAINEL ADMIN 100% VISÍVEL NO CELULAR E NO COMPUTADOR) -->
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        
+        <!-- 🔒 CADEADO / PAINEL ADMINISTRATIVO (Evidente no celular e no computador) -->
+        <a 
+          href="/admin" 
+          title="Painel Administrativo do Lojista (Emissão de Rastreio)"
+          class="flex items-center gap-1 sm:gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl bg-brand-blue/20 hover:bg-brand-blue border border-brand-blue/60 text-brand-blue hover:text-white transition-all shadow-neon-sm active:scale-95 shrink-0"
+          aria-label="Painel Administrativo"
+        >
+          <i data-lucide="lock" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-blue shrink-0"></i>
+          <span class="font-mono font-black text-[10px] sm:text-xs tracking-wider">ADMIN</span>
+        </a>
+
+        <!-- 🔗 Instagram Oficial (Link camuflado preparado) -->
+        <a 
+          id="instagram-link" 
+          href="#" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          title="Instagram Oficial"
+          data-camouflaged-instagram="true"
+          class="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-xl bg-gradient-to-tr from-pink-500/15 to-purple-500/15 border border-pink-500/30 text-pink-300 hover:text-white hover:border-pink-500/60 transition text-xs font-semibold shrink-0"
+        >
+          <i data-lucide="instagram" class="w-3.5 h-3.5 text-pink-400"></i>
+          <span>Instagram</span>
+        </a>
+
+        <!-- Botão WhatsApp Direto -->
+        <a 
+          href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Gostaria%20de%20consultar%20os%20modelos%20de%20iPhone%20e%20valores%20dispon%C3%ADveis." 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="h-8 sm:h-9 px-2.5 sm:px-3.5 rounded-xl bg-brand-blue hover:bg-brand-hover text-white font-bold text-xs tracking-wide shadow-neon-sm hover:shadow-neon-blue transition flex items-center justify-center gap-1.5 active:scale-95 shrink-0"
+        >
+          <i data-lucide="message-circle" class="w-4 h-4 fill-white"></i>
+          <span class="hidden md:inline">WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="lg:hidden w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center text-slate-300 hover:text-white rounded-xl bg-brand-card border border-brand-border shrink-0 focus:outline-none" aria-label="Abrir Menu">
+          <i data-lucide="menu" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-brand-border/70 bg-brand-card/95 backdrop-blur-2xl px-4 py-4 space-y-2.5">
+      
+      <!-- Card Admin Destaque Mobile -->
+      <a href="/admin" class="w-full flex items-center justify-between p-3 rounded-2xl bg-gradient-to-r from-brand-blue/25 via-blue-500/15 to-transparent border border-brand-blue/60 text-white font-bold text-sm shadow-neon-sm">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-xl bg-brand-blue text-white flex items-center justify-center shadow-neon-sm shrink-0">
+            <i data-lucide="lock" class="w-4 h-4"></i>
+          </div>
+          <div class="text-left">
+            <div class="text-xs sm:text-sm font-black text-white">Painel Administrativo</div>
+            <div class="text-[10px] text-brand-blue font-mono">Acesso do Lojista (/admin)</div>
+          </div>
+        </div>
+        <span class="text-[10px] font-mono font-bold bg-brand-blue text-white px-2 py-0.5 rounded-full shrink-0">ENTRAR</span>
+      </a>
+
+      <a href="/rastreio" class="flex items-center gap-2.5 p-2.5 rounded-xl bg-black/40 border border-brand-border text-white hover:text-brand-blue font-semibold text-xs">
+        <i data-lucide="truck" class="w-4 h-4 text-brand-blue"></i>
+        <span>Rastrear Minha Encomenda</span>
+      </a>
+      <a href="#catalogo" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">📱 Catálogo Completo</a>
+      <a href="#destaques" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">⌚ Apple Watch Ultra 3 & Som</a>
+      <a href="#simulador" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">🔄 Simular Usado na Troca</a>
+      <a href="#lancamento-18" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">⚡ Lançamento iPhone 18 Series</a>
+      <a href="#avaliacoes" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">⭐ Clientes Satisfeitos (4.7+)</a>
+      <a href="#faq" class="block text-slate-200 hover:text-brand-blue font-medium text-xs py-1.5 px-2">🛡️ Garantia de 1 Ano & Dúvidas</a>
+      
+      <div class="pt-2 flex flex-col gap-2 border-t border-brand-border/60">
+        <a id="mobile-instagram-link" href="#" target="_blank" class="w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-pink-500/20 text-pink-300 border border-pink-500/30 text-xs font-semibold">
+          <i data-lucide="instagram" class="w-4 h-4"></i> Instagram Oficial
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION: RETO, DIRETO E PROFISSIONAL (Estilo Apple Flagship Launch) -->
+  <section class="relative pt-8 pb-12 sm:pt-14 sm:pb-20 overflow-hidden z-10 border-b border-brand-border/60">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      
+      <!-- Launch Pill -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-blue/15 border border-brand-blue/40 text-brand-blue text-xs font-bold uppercase tracking-wider mb-4 shadow-neon-sm">
+        <span class="w-2 h-2 rounded-full bg-brand-blue animate-ping"></span>
+        <span>Lançamento Oficial Apple</span>
+      </div>
+
+      <!-- Main Headline: Direto e sem poluição -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.05] mb-3">
+        iPhone 18 Pro Max
+      </h1>
+
+      <p class="text-base sm:text-2xl text-slate-300 font-medium max-w-2xl mx-auto mb-4">
+        Titânio aeroespacial. Módulo visor de 48MP. Desempenho sem limites.
+      </p>
+
+      <!-- Pricing Callout: Baseado exatamente na sua tabela -->
+      <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-4 px-5 py-2.5 rounded-2xl bg-black/60 border border-brand-blue/40 backdrop-blur-md mb-6 shadow-neon-sm">
+        <div class="text-xs sm:text-sm text-slate-300">
+          A partir de <strong class="text-white text-lg sm:text-2xl font-mono ml-1 font-black">R$ 9.200,00</strong> à vista
+        </div>
+        <div class="hidden sm:block text-slate-600">|</div>
+        <div class="text-xs sm:text-sm text-brand-blue font-bold">
+          ou em até <strong class="font-mono text-base sm:text-xl">12x de R$ 766,66</strong> <span class="text-cyan-400 font-semibold">sem juros</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto mb-10 sm:mb-14">
+        <a 
+          href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Gostaria%20de%20garantir%20o%20novo%20iPhone%2018%20Pro%20Max%20que%20vi%20no%20site." 
+          target="_blank" 
+          class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-brand-blue hover:bg-brand-hover text-white font-bold text-xs uppercase tracking-wider shadow-neon-sm hover:shadow-neon-blue transition-all flex items-center justify-center gap-2 active:scale-95"
+        >
+          <i data-lucide="message-circle" class="w-4 h-4 fill-white"></i>
+          <span>Garantir no WhatsApp</span>
+        </a>
+
+        <a 
+          href="#catalogo" 
+          class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-brand-card hover:bg-brand-border border border-brand-border text-slate-200 font-semibold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-2"
+        >
+          <span>Ver Catálogo Completo</span>
+          <i data-lucide="chevron-down" class="w-4 h-4 text-brand-blue"></i>
+        </a>
+      </div>
+
+      <!-- Hero Visual: As 3 Cores do iPhone 18 Pro Flutuando em Pedestal de Vidro -->
+      <div class="relative max-w-3xl mx-auto">
+        <!-- Radial Spotlight Glow -->
+        <div class="absolute inset-0 bg-radial from-brand-blue/20 via-transparent to-transparent blur-3xl pointer-events-none"></div>
+
+        <div class="relative flex items-center justify-center gap-2 sm:gap-6 py-2">
+          <!-- Bordô Metálico (Left angle) -->
+          <div class="w-1/3 max-w-[190px] transform -rotate-3 hover:rotate-0 hover:scale-105 transition-all duration-500 cursor-pointer text-center" onclick="openLightbox('/assets/iphone18-bordo.png', 'iPhone 18 Pro Max - Bordô Metálico')">
+            <img src="/assets/iphone18-bordo.png" alt="iPhone 18 Bordô" class="w-full h-auto drop-shadow-[0_20px_25px_rgba(0,0,0,0.8)] mx-auto">
+            <span class="block text-[10px] sm:text-xs text-slate-400 font-semibold mt-2">Bordô Metálico</span>
+          </div>
+
+          <!-- Titânio Copper (Center Flagship) -->
+          <div class="w-1/3 max-w-[220px] z-10 transform scale-110 hover:scale-115 transition-all duration-500 cursor-pointer text-center" onclick="openLightbox('/assets/iphone18-copper.png', 'iPhone 18 Pro Max - Titânio Copper')">
+            <img src="/assets/iphone18-copper.png" alt="iPhone 18 Copper" class="w-full h-auto drop-shadow-[0_25px_35px_rgba(2,124,240,0.35)] mx-auto">
+            <span class="inline-block text-[10px] sm:text-xs text-white font-bold bg-brand-blue/20 border border-brand-blue/40 px-2.5 py-0.5 rounded-full mt-2">Titânio Copper</span>
+          </div>
+
+          <!-- Deep Purple (Right angle) -->
+          <div class="w-1/3 max-w-[190px] transform rotate-3 hover:rotate-0 hover:scale-105 transition-all duration-500 cursor-pointer text-center" onclick="openLightbox('/assets/iphone18-purple.png', 'iPhone 18 Pro Max - Deep Purple')">
+            <img src="/assets/iphone18-purple.png" alt="iPhone 18 Purple" class="w-full h-auto drop-shadow-[0_20px_25px_rgba(0,0,0,0.8)] mx-auto">
+            <span class="block text-[10px] sm:text-xs text-slate-400 font-semibold mt-2">Deep Purple</span>
+          </div>
+        </div>
+
+        <!-- 3 Badges Discretas e Minimalistas na Base do Hero -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-8 mt-8 text-xs text-slate-400 border-t border-brand-border/60 pt-6">
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="shield-check" class="w-4 h-4 text-brand-blue shrink-0"></i>
+            <span class="text-slate-300 font-medium">100% Lacrado & 1 Ano Garantia Apple</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="credit-card" class="w-4 h-4 text-brand-blue shrink-0"></i>
+            <span class="text-slate-300 font-medium">Em até 12x Sem Juros no Cartão</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-blue shrink-0"></i>
+            <span class="text-slate-300 font-medium">Pres. Prudente - SP ou Envio com Seguro</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Product Catalog Section (COM FOTOS OFICIAIS RESPECTIVAS E PROPORÇÕES PERFEITAS) -->
+  <section id="catalogo" class="py-12 sm:py-16 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header & Filters -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-5">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-blue/10 border border-brand-blue/30 text-brand-blue text-xs font-bold uppercase mb-2">
+            <i data-lucide="shopping-bag" class="w-3.5 h-3.5"></i>
+            <span>Catálogo Completo Atualizado</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+            Escolha seu modelo de <span class="bg-gradient-to-r from-blue-400 via-brand-blue to-cyan-400 bg-clip-text text-transparent">iPhone</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1 max-w-xl">
+            Selecione a capacidade e a cor. O preço e o link de WhatsApp atualizam em tempo real!
+          </p>
+        </div>
+
+        <!-- Filter Tabs (Com rolagem horizontal suave no celular) -->
+        <div class="flex items-center gap-1.5 p-1 bg-brand-card rounded-2xl border border-brand-border overflow-x-auto max-w-full shrink-0">
+          <button onclick="filterCatalog('all', this)" class="catalog-filter-btn active px-3 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-blue text-white shadow-neon-sm whitespace-nowrap">Todos</button>
+          <button onclick="filterCatalog('18-series', this)" class="catalog-filter-btn px-3 sm:px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition-all whitespace-nowrap">iPhone 18 Series</button>
+          <button onclick="filterCatalog('17-series', this)" class="catalog-filter-btn px-3 sm:px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition-all whitespace-nowrap">Linha 17</button>
+          <button onclick="filterCatalog('entry', this)" class="catalog-filter-btn px-3 sm:px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition-all whitespace-nowrap">iPhone 15</button>
+          <button onclick="filterCatalog('accessories', this)" class="catalog-filter-btn px-3 sm:px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition-all whitespace-nowrap">Watch & Som</button>
+        </div>
+      </div>
+
+      <!-- Products Dynamic Grid (Totalmente responsivo e bem proporcionado) -->
+      <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-6">
+        <!-- Renderizado dinamicamente via script.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Apple Watch Ultra 3 & Acessórios -->
+  <section id="destaques" class="py-12 sm:py-16 bg-gradient-to-b from-brand-dark via-[#0a0d16] to-brand-dark border-t border-brand-border/60 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+        
+        <!-- Watch Card Highlight -->
+        <div class="lg:col-span-6 bg-brand-card border border-brand-border rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
+                LANÇAMENTO SUPREMO
+              </span>
+              <span class="text-xs font-mono text-slate-400">6X SEM JUROS</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+              <div>
+                <h3 class="text-2xl font-black text-white">Apple Watch Ultra 3</h3>
+                <p class="text-xs text-brand-blue font-semibold mt-1">Feito para quem vai além.</p>
+                
+                <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+                  <li class="flex items-center gap-1.5">
+                    <i data-lucide="check" class="w-3.5 h-3.5 text-brand-blue"></i>
+                    <span>Caixa de Titânio aeroespacial</span>
+                  </li>
+                  <li class="flex items-center gap-1.5">
+                    <i data-lucide="check" class="w-3.5 h-3.5 text-brand-blue"></i>
+                    <span>Resistência extrema & Prova d'água</span>
+                  </li>
+                  <li class="flex items-center gap-1.5">
+                    <i data-lucide="check" class="w-3.5 h-3.5 text-brand-blue"></i>
+                    <span>1 Ano Garantia Oficial Apple</span>
+                  </li>
+                </ul>
+
+                <div class="mt-5">
+                  <div class="text-[10px] text-slate-400 uppercase font-mono">Por apenas</div>
+                  <div class="text-2xl sm:text-3xl font-black text-white font-mono">R$ 3.900<span class="text-xs text-slate-400 font-normal">,00</span></div>
+                  <div class="text-xs text-brand-blue font-semibold">Em até 6x de R$ 650,00 sem juros</div>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-center p-2">
+                <img src="/assets/clean_watch_crop.png" alt="Apple Watch Ultra 3" class="max-h-56 w-auto object-contain rounded-xl cursor-pointer hover:scale-105 transition-transform" onclick="openLightbox('/assets/clean_watch_crop.png', 'Apple Watch Ultra 3')">
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-brand-border/60">
+            <a href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Tenho%20interesse%20no%20Apple%20Watch%20Ultra%203%20por%20R%24%203.900%2C00%20visto%20no%20site." target="_blank" class="w-full py-3 px-4 rounded-xl bg-brand-blue hover:bg-brand-hover text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-neon-sm hover:shadow-neon-blue transition-all">
+              <i data-lucide="message-circle" class="w-4 h-4 fill-white"></i>
+              <span>Pedir no WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Audio & Acessórios Column -->
+        <div class="lg:col-span-6 flex flex-col justify-between gap-6">
+          
+          <!-- Box 1: JBL Boombox 4 -->
+          <div class="bg-brand-card border border-brand-border rounded-3xl p-5 flex flex-col sm:flex-row items-center gap-4">
+            <img src="/assets/jbl-boombox4.webp" alt="JBL Boombox 4" class="w-28 h-28 object-contain shrink-0 cursor-pointer hover:scale-105 transition-transform" onclick="openLightbox('/assets/jbl-boombox4.webp', 'JBL Boombox 4 Camuflada')">
+            <div class="flex-1 text-center sm:text-left space-y-1">
+              <span class="text-[10px] font-bold text-brand-blue uppercase">Linha Áudio Premium</span>
+              <h4 class="text-base sm:text-lg font-bold text-white">JBL Boombox 4 Camuflada</h4>
+              <p class="text-xs text-slate-400">Até 34h de bateria, conexão Auracast e à prova d'água IP67.</p>
+              <div class="pt-2 flex items-center justify-center sm:justify-start gap-3">
+                <a href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Tenho%20interesse%20na%20JBL%20Boombox%204%20Camo%20vista%20no%20site." target="_blank" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-brand-blue text-white text-xs font-bold transition flex items-center gap-1.5">
+                  <i data-lucide="message-circle" class="w-3 h-3"></i> Consultar Valor
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 2: Acessórios Originais Apple -->
+          <div class="bg-brand-card border border-brand-border rounded-3xl p-5 flex flex-col sm:flex-row items-center gap-4">
+            <img src="/assets/airpods-pro.png" alt="AirPods Pro 2" class="w-28 h-28 object-contain shrink-0 cursor-pointer hover:scale-105 transition-transform" onclick="openLightbox('/assets/airpods-pro.png', 'AirPods Pro 2 Original Apple')">
+            <div class="flex-1 text-center sm:text-left space-y-1">
+              <span class="text-[10px] font-bold text-brand-blue uppercase">Originais Apple</span>
+              <h4 class="text-base sm:text-lg font-bold text-white">AirPods Pro 2, Carregadores 20W & Cabos</h4>
+              <p class="text-xs text-slate-400">Cancelamento ativo de ruído, carregadores rápidos e cabos trançados.</p>
+              <div class="pt-2 flex items-center justify-center sm:justify-start gap-3">
+                <a href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Gostaria%20de%20consultar%20valores%20de%20AirPods%20e%20carregadores%20originais." target="_blank" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-brand-blue text-white text-xs font-bold transition flex items-center gap-1.5">
+                  <i data-lucide="message-circle" class="w-3 h-3"></i> Ver Acessórios
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Trade-In Simulator ("Simulador de Usado na Troca") -->
+  <section id="simulador" class="py-12 sm:py-16 relative z-10">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="bg-brand-card border border-brand-blue/30 rounded-3xl p-6 sm:p-8 shadow-xl">
+        
+        <div class="border-b border-brand-border pb-4 mb-6">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-blue/15 border border-brand-blue/30 text-brand-blue text-xs font-bold uppercase mb-2">
+            <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+            <span>Upgrade Facilitado</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-white">Aceitamos o seu iPhone usado na troca</h2>
+          <p class="text-xs text-slate-400 mt-1">Parcelamos a diferença em até 18x e você ganha brindes exclusivos na retirada em Presidente Prudente!</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-1.5">Qual é o seu iPhone atual?</label>
+            <select id="trade-user-phone" class="w-full bg-black/60 border border-brand-border rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+              <option value="iPhone 11">iPhone 11 (64GB / 128GB)</option>
+              <option value="iPhone 11 Pro / Pro Max">iPhone 11 Pro / Pro Max</option>
+              <option value="iPhone 12 / 12 mini">iPhone 12 / 12 mini</option>
+              <option value="iPhone 12 Pro / Pro Max">iPhone 12 Pro / Pro Max</option>
+              <option value="iPhone 13 / 13 mini">iPhone 13 / 13 mini</option>
+              <option value="iPhone 13 Pro / Pro Max">iPhone 13 Pro / Pro Max</option>
+              <option value="iPhone 14 / 14 Plus">iPhone 14 / 14 Plus</option>
+              <option value="iPhone 14 Pro / Pro Max">iPhone 14 Pro / Pro Max</option>
+              <option value="iPhone 15 / 15 Plus">iPhone 15 / 15 Plus</option>
+              <option value="iPhone 15 Pro / Pro Max">iPhone 15 Pro / Pro Max</option>
+              <option value="Outro modelo">Outro modelo / Android</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-1.5">Qual modelo você quer pegar?</label>
+            <select id="trade-target-phone" class="w-full bg-black/60 border border-brand-border rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+              <option value="iPhone 18 Pro Max 256GB">iPhone 18 Pro Max 256GB (R$ 9.200)</option>
+              <option value="iPhone 18 Pro Max 512GB">iPhone 18 Pro Max 512GB (R$ 9.700)</option>
+              <option value="iPhone 18 Pro 256GB">iPhone 18 Pro 256GB (R$ 8.300)</option>
+              <option value="iPhone 18 Pro 512GB">iPhone 18 Pro 512GB (R$ 8.800)</option>
+              <option value="iPhone 17 Pro Max 256GB">iPhone 17 Pro Max 256GB (R$ 6.900)</option>
+              <option value="iPhone 17 Pro 256GB">iPhone 17 Pro 256GB (R$ 6.000)</option>
+              <option value="iPhone 17 256GB">iPhone 17 256GB (R$ 4.500)</option>
+              <option value="iPhone 17E 256GB">iPhone 17E 256GB (R$ 3.200)</option>
+              <option value="iPhone 15 128GB">iPhone 15 128GB (R$ 3.000)</option>
+              <option value="Apple Watch Ultra 3">Apple Watch Ultra 3 (R$ 3.900)</option>
+            </select>
+          </div>
+
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-1.5">Saúde da bateria / Detalhes do seu aparelho (opcional):</label>
+            <input id="trade-notes" type="text" placeholder="Ex: Bateria em 86%, com caixa e sem marcas de uso" class="w-full bg-black/60 border border-brand-border rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-brand-border/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <span class="text-xs text-slate-400 text-center sm:text-left">
+            Avaliação rápida em minutos direto no WhatsApp da FLINN iPhones.
+          </span>
+          <button onclick="sendTradeInWhatsApp()" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 via-brand-blue to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-xs uppercase tracking-wide transition flex items-center justify-center gap-2 shadow-neon-sm active:scale-95">
+            <i data-lucide="message-circle" class="w-4 h-4 fill-white"></i>
+            <span>Simular Avaliação no WhatsApp</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 📸 BANNER 16:9 DEDICADO DO IPHONE 18 (SOLICITADO EXPLICITAMENTE MAIS EMBAIXO) -->
+  <section id="lancamento-18" class="py-12 sm:py-16 relative z-10 border-t border-brand-border/60">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Container 16:9 Exato -->
+      <div class="relative w-full aspect-video rounded-3xl overflow-hidden border border-brand-blue/40 shadow-2xl group bg-black">
+        
+        <!-- Imagem 16:9 com Logo FLINN -->
+        <img 
+          src="/assets/banner-flinn-16-9.jpg" 
+          alt="Lançamento iPhone 18 Pro Max - FLINN iPhones" 
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+        >
+
+        <!-- Gradiente e Conteúdo Sobreposto na Base do Banner -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent flex flex-col justify-end p-5 sm:p-10">
+          <div class="max-w-2xl space-y-2">
+            <span class="inline-block px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold bg-brand-blue text-white uppercase tracking-wider shadow-sm">
+              ✨ LANÇAMENTO OFICIAL • IPHONE 18 SERIES
+            </span>
+            <h3 class="text-xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
+              Design Revolucionário em Titânio com Módulo Visor
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 line-clamp-2 sm:line-clamp-none leading-relaxed">
+              Cores exclusivas Titânio Copper, Bordô Metálico e Deep Purple. Câmera tripla de 48MP com zoom aprimorado e chip A19 Pro. 100% lacrados com 1 ano de garantia oficial Apple.
+            </p>
+            
+            <div class="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-3">
+              <a 
+                href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Vi%20o%20banner%20do%20iPhone%2018%20Pro%20no%20site%20e%20quero%20garantir%20o%20meu." 
+                target="_blank" 
+                class="px-6 py-3 rounded-xl bg-brand-blue hover:bg-brand-hover text-white font-bold text-xs uppercase tracking-wider shadow-neon-sm hover:shadow-neon-blue flex items-center gap-2 active:scale-95 transition"
+              >
+                <i data-lucide="message-circle" class="w-4 h-4 fill-white"></i>
+                <span>Pedir no WhatsApp (16 99765-5257)</span>
+              </a>
+              <span class="text-xs text-slate-400 font-mono">
+                A partir de <strong>R$ 8.300</strong> em até 12x sem juros
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS (CLIENTES SATISFEITOS - SEM NOMES, APENAS ESTRELAS 4.7+) -->
+  <section id="avaliacoes" class="py-12 sm:py-18 bg-brand-card/30 border-t border-brand-border/60 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold uppercase mb-2">
+          <i data-lucide="star" class="w-3.5 h-3.5 fill-cyan-400"></i>
+          <span>Avaliações Reais de Clientes</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+          Clientes Satisfeitos com a <span class="bg-gradient-to-r from-blue-400 via-brand-blue to-cyan-400 bg-clip-text text-transparent">FLINN iPhones</span>
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">
+          Transparência total: loja física em Presidente Prudente - SP e envios com 1 ano de garantia Apple.
+        </p>
+      </div>
+
+      <!-- Reviews Grid (Fotos com a marca FLINN iPhones, sem nomes individuais conforme solicitado) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        
+        <!-- Review 1 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>5.0</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Compra Verificada
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 cursor-pointer" onclick="openLightbox('/assets/flinn-client-1.jpg', 'Entrega Realizada - FLINN iPhones')">
+              <img src="/assets/flinn-client-1.jpg" alt="Entrega Cliente FLINN iPhones" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Atendimento impecável! O aparelho veio 100% lacrado, garantia de 1 ano ativada na hora. Peguei direto na loja da Washington Luiz, recomendo de olhos fechados!"
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Pres. Prudente - SP</span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>4.9</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Entrega em Mãos
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 cursor-pointer" onclick="openLightbox('/assets/flinn-client-2.jpg', 'Entrega em Mãos - FLINN iPhones')">
+              <img src="/assets/flinn-client-2.jpg" alt="Entrega Noturna iPhone FLINN" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Melhor preço disparado! Consegui parcelar em 12x sem juros e entregaram em mãos na mesma noite. Aparelho lacrado e com sacola oficial da FLINN. Nota 10!"
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Pres. Prudente - SP</span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>5.0</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Cliente VIP
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 cursor-pointer" onclick="openLightbox('/assets/flinn-client-3.jpg', 'Cliente VIP - FLINN iPhones')">
+              <img src="/assets/flinn-client-3.jpg" alt="Cliente VIP FLINN iPhones" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Comprei meu 18 Pro com eles e a experiência foi fora de série. Aparelho novíssimo, lacrado, me ajudaram em tudo pelo WhatsApp. Podem comprar sem medo!"
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Marília - SP</span>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>4.8</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Usado na Troca
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 cursor-pointer" onclick="openLightbox('/assets/flinn-client-4.jpg', 'Troca de Aparelho com Sucesso')">
+              <img src="/assets/flinn-client-4.jpg" alt="Troca de iPhone FLINN" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Pegaram meu iPhone 13 antigo como parte do pagamento com uma avaliação muito justa. Paguei a diferença e já saí de iPhone novo na hora. Recomendo muito!"
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Araçatuba - SP</span>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>4.9</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Compra Verificada
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 cursor-pointer" onclick="openLightbox('/assets/flinn-client-5.jpg', 'Entrega Realizada FLINN iPhones')">
+              <img src="/assets/flinn-client-5.jpg" alt="Cliente FLINN iPhones" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Já é o segundo iPhone que compro com a equipe FLINN. O suporte responde na hora pelo WhatsApp e o envio foi expresso com rastreamento atualizado. Loja nota 10!"
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Pres. Prudente - SP</span>
+          </div>
+        </div>
+
+        <!-- Review 6 -->
+        <div class="bg-brand-card border border-brand-border hover:border-brand-blue/40 rounded-3xl p-5 flex flex-col justify-between transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-cyan-400 font-mono font-bold text-xs">
+                <span>4.8</span>
+                <span class="text-cyan-400">★★★★★</span>
+              </div>
+              <span class="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                Envio com Seguro
+              </span>
+            </div>
+
+            <div class="w-full h-52 sm:h-56 rounded-2xl overflow-hidden mb-3 bg-black/40 border border-white/5 flex flex-col items-center justify-center p-4 text-center">
+              <div class="w-12 h-12 rounded-full bg-brand-blue/20 border border-brand-blue/40 flex items-center justify-center text-brand-blue mb-2 shadow-neon-sm">
+                <i data-lucide="shield-check" class="w-6 h-6"></i>
+              </div>
+              <span class="text-xs font-bold text-white block">Envio 100% Assegurado</span>
+              <span class="text-[11px] text-slate-400">Rastreamento Sedex + Seguro Total de Carga</span>
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              "Moro fora e estava receoso de comprar à distância. Fui super bem atendido pelo número 55 16 99765-5257, me passaram o código de rastreio e chegou impecável com lacre original."
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-brand-border/60 flex items-center justify-between text-[11px]">
+            <span class="font-bold text-white">Cliente Verificado</span>
+            <span class="text-slate-400">Envio Seguro Brasil</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-12 sm:py-16 relative z-10">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-blue/10 border border-brand-blue/30 text-brand-blue text-xs font-bold uppercase mb-2">
+          <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
+          <span>Tire Suas Dúvidas</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Perguntas Frequentes & Garantia</h2>
+      </div>
+
+      <div class="space-y-3">
+        <div class="faq-item bg-brand-card border border-brand-border rounded-2xl p-4 cursor-pointer hover:border-brand-blue/40 transition-colors" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h4 class="font-bold text-sm text-white">Os aparelhos são realmente novos e lacrados?</h4>
+            <i data-lucide="chevron-down" class="faq-chevron w-4 h-4 text-brand-blue transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-2.5 pt-2.5 border-t border-brand-border/60 text-xs text-slate-300 leading-relaxed">
+            Sim! Todos os nossos iPhones são 100% originais, novos de fábrica e com os lacres da Apple intactos. Você mesmo rompe o lacre ao receber.
+          </div>
+        </div>
+
+        <div class="faq-item bg-brand-card border border-brand-border rounded-2xl p-4 cursor-pointer hover:border-brand-blue/40 transition-colors" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h4 class="font-bold text-sm text-white">Como funciona a garantia de 1 ano Apple?</h4>
+            <i data-lucide="chevron-down" class="faq-chevron w-4 h-4 text-brand-blue transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-2.5 pt-2.5 border-t border-brand-border/60 text-xs text-slate-300 leading-relaxed">
+            A garantia é mundial e oficial da Apple. Ela começa a contar a partir do momento em que você liga o iPhone pela primeira vez. Atendimento em qualquer Apple Store oficial do Brasil.
+          </div>
+        </div>
+
+        <div class="faq-item bg-brand-card border border-brand-border rounded-2xl p-4 cursor-pointer hover:border-brand-blue/40 transition-colors" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h4 class="font-bold text-sm text-white">Quais são as formas de pagamento disponíveis?</h4>
+            <i data-lucide="chevron-down" class="faq-chevron w-4 h-4 text-brand-blue transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-2.5 pt-2.5 border-t border-brand-border/60 text-xs text-slate-300 leading-relaxed">
+            Aceitamos PIX (com desconto à vista), cartão parcelado em até 12x SEM JUROS (ou em até 18x facilitado), além de Mercado Pago e Mercado Livre.
+          </div>
+        </div>
+
+        <div class="faq-item bg-brand-card border border-brand-border rounded-2xl p-4 cursor-pointer hover:border-brand-blue/40 transition-colors" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h4 class="font-bold text-sm text-white">Como acompanho a entrega do meu pedido?</h4>
+            <i data-lucide="chevron-down" class="faq-chevron w-4 h-4 text-brand-blue transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-2.5 pt-2.5 border-t border-brand-border/60 text-xs text-slate-300 leading-relaxed">
+            Assim que seu pedido é despachado, enviamos o código de rastreamento oficial no seu WhatsApp. Você pode acompanhar em tempo real acessando a nossa página <a href="/rastreio" class="text-brand-blue underline font-semibold">Rastrear Pedido</a>.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black/90 border-t border-brand-border/60 py-10 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        
+        <div class="space-y-3 md:col-span-2">
+          <div class="flex items-center gap-2.5">
+            <div class="w-10 h-10 rounded-xl overflow-hidden border border-brand-blue/50 bg-black/60 p-0.5 shadow-neon-sm flex items-center justify-center">
+              <img src="/assets/flinn-logo.png" alt="FLINN iPhones" class="w-full h-full object-contain rounded-lg">
+            </div>
+            <div>
+              <div class="font-mono font-black text-base text-white">
+                <span>FLINN</span> <span class="text-brand-blue">iPHONES</span> <span class="text-[9px] px-1 py-0.5 rounded bg-brand-blue/20 text-brand-blue border border-brand-blue/30">STORE</span>
+              </div>
+              <p class="text-[10px] text-slate-400">Qualidade, Segurança & Procedência Apple</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm leading-relaxed">
+            Especialistas em produtos Apple novos e lacrados. Loja física em Presidente Prudente - SP, garantia mundial de 1 ano Apple, parcelamento em até 12x sem juros e envios seguros para todo o Brasil.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h5 class="text-xs font-bold text-white uppercase tracking-wider">Navegação Rápida</h5>
+          <ul class="space-y-1.5 text-xs text-slate-400">
+            <li><a href="#catalogo" class="hover:text-brand-blue transition-colors">Catálogo Completo</a></li>
+            <li><a href="#lancamento-18" class="hover:text-brand-blue transition-colors">Lançamentos 18 Series</a></li>
+            <li><a href="/rastreio" class="hover:text-brand-blue text-white font-semibold transition-colors flex items-center gap-1">
+              <i data-lucide="truck" class="w-3.5 h-3.5 text-brand-blue"></i>
+              <span>Rastrear Encomenda</span>
+            </a></li>
+            <li><a href="#simulador" class="hover:text-brand-blue transition-colors">Simular Usado na Troca</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h5 class="text-xs font-bold text-white uppercase tracking-wider">Atendimento & Endereço</h5>
+          <ul class="space-y-1.5 text-xs text-slate-400">
+            <li class="flex items-start gap-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-blue mt-0.5 shrink-0"></i>
+              <span class="text-slate-300">Av. Washington Luiz, 2102 - Jardim Paulista, Pres. Prudente - SP, 19023-450</span>
+            </li>
+            <li class="flex items-center gap-1.5">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-brand-blue shrink-0"></i>
+              <span>55 16 99765-5257</span>
+            </li>
+            <li class="flex items-center gap-1.5">
+              <i data-lucide="truck" class="w-3.5 h-3.5 text-brand-blue shrink-0"></i>
+              <span>Envio com seguro para todo o Brasil</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-6 border-t border-brand-border/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500">
+        <div>
+          © 2026 FLINN iPHONES. Todos os direitos reservados.
+        </div>
+        <div class="flex items-center gap-4">
+          <!-- 🔒 CADEADO DISCRETO NO RODAPÉ -->
+          <a href="/admin" title="Painel Administrativo" class="text-slate-500 hover:text-brand-blue transition flex items-center gap-1">
+            <i data-lucide="lock" class="w-3 h-3 text-brand-blue"></i>
+            <span>Painel do Lojista</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Quick WhatsApp Button -->
+  <aside aria-label="Atendimento rápido no WhatsApp" class="fixed bottom-5 right-5 z-50 flex items-center group">
+    <a 
+      href="https://wa.me/5516997655257?text=Ol%C3%A1%2C%20FLINN%20iPhones!%20Gostaria%20de%20atendimento%20r%C3%A1pido." 
+      target="_blank" 
+      rel="noopener noreferrer"
+      aria-label="Conversar no WhatsApp da FLINN iPhones"
+      class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-tr from-emerald-600 to-green-500 hover:from-emerald-500 hover:to-green-400 text-white flex items-center justify-center shadow-[0_0_20px_rgba(34,197,94,0.4)] hover:scale-105 active:scale-95 transition-all duration-300"
+    >
+      <i data-lucide="message-circle" class="w-6 h-6 sm:w-7 sm:h-7 fill-white"></i>
+      <span class="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-brand-blue border-2 border-brand-dark animate-pulse"></span>
+    </a>
+  </aside>
+
+  <!-- Lightbox Modal for Photo Zoom -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="relative max-w-4xl max-h-[90vh] flex flex-col items-center">
+      <button onclick="closeLightbox()" class="absolute -top-10 right-0 text-white hover:text-brand-blue p-1.5 focus:outline-none">
+        <i data-lucide="x" class="w-7 h-7"></i>
+      </button>
+      <img id="lightbox-img" src="" alt="" class="max-h-[80vh] w-auto max-w-full rounded-2xl object-contain border border-white/10 shadow-2xl">
+      <p id="lightbox-caption" class="text-white text-xs sm:text-sm font-semibold mt-3 text-center"></p>
+    </div>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="/script.js"></script>
+</body>
+</html>
