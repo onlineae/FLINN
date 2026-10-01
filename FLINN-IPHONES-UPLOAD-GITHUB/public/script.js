@@ -23,13 +23,14 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 9200, formattedPrice: "R$ 9.200,00", installment: "12x de R$ 766,66" },
-      { capacity: "512GB", price: 9700, formattedPrice: "R$ 9.700,00", installment: "12x de R$ 808,33" }
+      { capacity: "256GB", price: 9055.46, formattedPrice: "R$ 9.055,46", installment: "12x de R$ 754,62" },
+      { capacity: "512GB", price: 9855.46, formattedPrice: "R$ 9.855,46", installment: "12x de R$ 821,28" }
     ],
     colors: [
-      { name: "Titânio Copper / Laranja", hex: "#b86a34", image: "/assets/iphone18-copper.png" },
-      { name: "Bordô Metálico / Vinho", hex: "#7a2232", image: "/assets/iphone18-bordo.png" },
-      { name: "Deep Purple / Azul Titânio", hex: "#4a3c68", image: "/assets/iphone18-purple.png" }
+      { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
+      { name: "Azul Glacial", hex: "#8aa8be", image: "/assets/ip18_glacier.png" },
+      { name: "Prata Titânio", hex: "#e2e4e6", image: "/assets/ip18_silver.png" },
+      { name: "Preto Titânio", hex: "#252528", image: "/assets/ip18_black.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -44,13 +45,14 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 8300, formattedPrice: "R$ 8.300,00", installment: "12x de R$ 691,66" },
-      { capacity: "512GB", price: 8800, formattedPrice: "R$ 8.800,00", installment: "12x de R$ 733,33" }
+      { capacity: "256GB", price: 9055.46, formattedPrice: "R$ 9.055,46", installment: "12x de R$ 754,62" },
+      { capacity: "512GB", price: 9655.46, formattedPrice: "R$ 9.655,46", installment: "12x de R$ 804,62" }
     ],
     colors: [
-      { name: "Titânio Copper / Laranja", hex: "#b86a34", image: "/assets/iphone18-copper.png" },
-      { name: "Bordô Metálico / Vinho", hex: "#7a2232", image: "/assets/iphone18-bordo.png" },
-      { name: "Deep Purple / Azul", hex: "#4a3c68", image: "/assets/iphone18-purple.png" }
+      { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
+      { name: "Azul Glacial", hex: "#8aa8be", image: "/assets/ip18_glacier.png" },
+      { name: "Prata Titânio", hex: "#e2e4e6", image: "/assets/ip18_silver.png" },
+      { name: "Preto Titânio", hex: "#252528", image: "/assets/ip18_black.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -176,9 +178,9 @@ const PRODUCTS = [
       { capacity: "49mm GPS + Cell", price: 3900, formattedPrice: "R$ 3.900,00", installment: "6x de R$ 650,00" }
     ],
     colors: [
-      { name: "Pulseira Laranja Titânio", hex: "#ff6200", image: "/assets/clean_watch_crop.png" },
-      { name: "Pulseira Azul Oceano", hex: "#2563eb", image: "/assets/clean_watch_blue.png" },
-      { name: "Pulseira Meia-Noite Preta", hex: "#1e293b", image: "/assets/clean_watch_black.png" }
+      { name: "Pulseira Laranja Titânio", hex: "#ff6200", image: "/assets/watch_orange.png" },
+      { name: "Pulseira Azul Oceano", hex: "#2563eb", image: "/assets/watch_blue.png" },
+      { name: "Pulseira Meia-Noite Preta", hex: "#1e293b", image: "/assets/watch_black.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -214,7 +216,9 @@ const PRODUCTS = [
       { capacity: "Novos & Lacrados", price: null, formattedPrice: "Consulte Valores", installment: "Pronta Entrega" }
     ],
     colors: [
-      { name: "Linha Genuína Apple", hex: "#ffffff", image: "/assets/clean_airpods_pro.png" }
+      { name: "Fones AirPods Pro 2", hex: "#ffffff", image: "/assets/airpods_earbuds.png" },
+      { name: "Estojo MagSafe Dark", hex: "#111827", image: "/assets/airpods_case_dark.jpg" },
+      { name: "Conexão Instantânea", hex: "#2563eb", image: "/assets/airpods_popup.jpg" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
