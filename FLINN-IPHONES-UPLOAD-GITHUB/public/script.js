@@ -7,7 +7,7 @@ const STORE_CONFIG = {
   address: "Av. Washington Luiz, 2102 - Jardim Paulista, Pres. Prudente - SP, 19023-450",
   cityState: "Presidente Prudente - SP",
   whatsappNumber: "5516997655257", // WhatsApp: 55 16 99765-5257
-  instagramUrl: "https://instagram.com/flinniphones", // Aberto para link camuflado
+  instagramUrl: "https://www.instagram.com/flinn.iphones?stkn=czJxOTVieGU5dXRy&utm_source=qr",
   pixDiscountPercent: 5
 };
 
@@ -69,10 +69,10 @@ const PRODUCTS = [
       { capacity: "512GB", price: 7400, formattedPrice: "R$ 7.400,00", installment: "12x de R$ 616,66" }
     ],
     colors: [
-      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/clean_iphone16pro_desert.png" },
-      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/clean_iphone16pro_natural.png" },
-      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/clean_iphone16pro_black.png" },
-      { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/clean_iphone16pro_white.png" }
+      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/ip17pro_desert.png" },
+      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/ip17pro_natural.png" },
+      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/ip17pro_black.png" },
+      { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/ip17pro_white.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -91,10 +91,10 @@ const PRODUCTS = [
       { capacity: "512GB", price: 6500, formattedPrice: "R$ 6.500,00", installment: "12x de R$ 541,66" }
     ],
     colors: [
-      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/clean_iphone16pro_desert.png" },
-      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/clean_iphone16pro_natural.png" },
-      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/clean_iphone16pro_black.png" },
-      { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/clean_iphone16pro_white.png" }
+      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/ip17pro_desert.png" },
+      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/ip17pro_natural.png" },
+      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/ip17pro_black.png" },
+      { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/ip17pro_white.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -112,11 +112,11 @@ const PRODUCTS = [
       { capacity: "256GB", price: 4500, formattedPrice: "R$ 4.500,00", installment: "12x de R$ 375,00" }
     ],
     colors: [
-      { name: "Azul Ultramarine", hex: "#4b5d88", image: "/assets/clean_iphone16_ultramarine.png" },
-      { name: "Rosa Pastel", hex: "#e5b1b8", image: "/assets/clean_iphone16_pink.png" },
-      { name: "Verde Teal", hex: "#739893", image: "/assets/clean_iphone16_teal.png" },
-      { name: "Branco Estelar", hex: "#f1f2f4", image: "/assets/clean_iphone16_white.png" },
-      { name: "Preto Profundo", hex: "#1e1e20", image: "/assets/clean_iphone16_black.png" }
+      { name: "Azul Ultramarine", hex: "#4b5d88", image: "/assets/ip17_ultramarine.png" },
+      { name: "Verde Teal", hex: "#739893", image: "/assets/ip17_teal.png" },
+      { name: "Rosa Pastel", hex: "#e5b1b8", image: "/assets/ip17_pink.png" },
+      { name: "Branco Estelar", hex: "#f1f2f4", image: "/assets/ip17_white.png" },
+      { name: "Preto Profundo", hex: "#1e1e20", image: "/assets/ip17_black.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -134,9 +134,9 @@ const PRODUCTS = [
       { capacity: "256GB", price: 3200, formattedPrice: "R$ 3.200,00", installment: "12x de R$ 266,66" }
     ],
     colors: [
-      { name: "Branco Estelar", hex: "#f1f2f4", image: "/assets/clean_iphone16_white.png" },
-      { name: "Preto Espacial", hex: "#1e1e20", image: "/assets/clean_iphone16_black.png" },
-      { name: "Azul Ultramarine", hex: "#4b5d88", image: "/assets/clean_iphone16_ultramarine.png" }
+      { name: "Branco Estelar", hex: "#f1f2f4", image: "/assets/ip17e_white.png" },
+      { name: "Preto Espacial", hex: "#1e1e20", image: "/assets/ip17e_black.png" },
+      { name: "Rosa Pálido", hex: "#f0c8cb", image: "/assets/ip17e_pink.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
@@ -154,9 +154,11 @@ const PRODUCTS = [
       { capacity: "128GB", price: 3000, formattedPrice: "R$ 3.000,00", installment: "12x de R$ 250,00" }
     ],
     colors: [
-      { name: "Preto Clássico", hex: "#1c1c1e", image: "/assets/clean_iphone15_black.png" },
-      { name: "Rosa Pastel", hex: "#f0c8cb", image: "/assets/clean_iphone15_pink.png" },
-      { name: "Azul Claro", hex: "#c8d7e0", image: "/assets/clean_iphone15_blue.png" }
+      { name: "Verde Pastel", hex: "#d4e4d6", image: "/assets/ip15_green.png" },
+      { name: "Preto Clássico", hex: "#1c1c1e", image: "/assets/ip15_black.png" },
+      { name: "Azul Claro", hex: "#c8d7e0", image: "/assets/ip15_blue.png" },
+      { name: "Rosa Pastel", hex: "#f0c8cb", image: "/assets/ip15_pink.png" },
+      { name: "Amarelo Solar", hex: "#f5e8b7", image: "/assets/ip15_yellow.png" }
     ],
     selectedStorageIndex: 0,
     selectedColorIndex: 0
