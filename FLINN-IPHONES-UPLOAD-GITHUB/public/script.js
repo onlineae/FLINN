@@ -23,8 +23,8 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 9255, formattedPrice: "R$ 9.255,00", installment: "12x de R$ 771,25" },
-      { capacity: "512GB", price: 9955, formattedPrice: "R$ 9.955,00", installment: "12x de R$ 829,58" }
+      { capacity: "256GB", price: 8999, formattedPrice: "R$ 8.999,00", installment: "12x de R$ 749,92" },
+      { capacity: "512GB", price: 9499, formattedPrice: "R$ 9.499,00", installment: "12x de R$ 791,58" }
     ],
     colors: [
       { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
@@ -45,8 +45,8 @@ const PRODUCTS = [
     warranty: "1 Ano Garantia Apple",
     maxInstallments: 12,
     storages: [
-      { capacity: "256GB", price: 9055, formattedPrice: "R$ 9.055,00", installment: "12x de R$ 754,58" },
-      { capacity: "512GB", price: 9755, formattedPrice: "R$ 9.755,00", installment: "12x de R$ 812,91" }
+      { capacity: "256GB", price: 8099, formattedPrice: "R$ 8.099,00", installment: "12x de R$ 674,92" },
+      { capacity: "512GB", price: 8799, formattedPrice: "R$ 8.799,00", installment: "12x de R$ 733,25" }
     ],
     colors: [
       { name: "Bordô Metálico", hex: "#5c1d2e", image: "/assets/ip18_burgundy.png" },
@@ -71,9 +71,8 @@ const PRODUCTS = [
       { capacity: "512GB", price: 7400, formattedPrice: "R$ 7.400,00", installment: "12x de R$ 616,66" }
     ],
     colors: [
-      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/ip17pro_desert.png" },
-      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/ip17pro_natural.png" },
-      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/ip17pro_black.png" },
+      { name: "Laranja Cósmico", hex: "#df6a2a", image: "/assets/ip17pro_orange.png" },
+      { name: "Azul Titânio", hex: "#3b4154", image: "/assets/ip17pro_blue.png" },
       { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/ip17pro_white.png" }
     ],
     selectedStorageIndex: 0,
@@ -93,9 +92,8 @@ const PRODUCTS = [
       { capacity: "512GB", price: 6500, formattedPrice: "R$ 6.500,00", installment: "12x de R$ 541,66" }
     ],
     colors: [
-      { name: "Titânio Deserto", hex: "#c5a890", image: "/assets/ip17pro_desert.png" },
-      { name: "Titânio Natural", hex: "#9b9994", image: "/assets/ip17pro_natural.png" },
-      { name: "Preto Titânio", hex: "#2b2b2d", image: "/assets/ip17pro_black.png" },
+      { name: "Laranja Cósmico", hex: "#df6a2a", image: "/assets/ip17pro_orange.png" },
+      { name: "Azul Titânio", hex: "#3b4154", image: "/assets/ip17pro_blue.png" },
       { name: "Branco Titânio", hex: "#f0ede8", image: "/assets/ip17pro_white.png" }
     ],
     selectedStorageIndex: 0,
